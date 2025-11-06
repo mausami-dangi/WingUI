@@ -6,12 +6,13 @@
 //
 
 import Foundation
-import SwiftUICore
+import SwiftUI
 
 struct AppColor {
     static let appBlue = Color(hex: "#289EFD")
     static let appBlack = Color(hex: "#2D3649")
     static let appGrey = Color(hex: "#90A1B5")
+    static let bgGrey = Color(hex: "#F7F8FA")
 }
 
 

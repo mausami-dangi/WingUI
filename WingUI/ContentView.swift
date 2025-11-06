@@ -16,7 +16,7 @@ struct ContentView: View {
                     Text("Chat")
                 }
             
-            Text("Task")
+            TaskListView()
                 .tabItem {
                     Image("ic_taskTab")
                     Text("Task")
