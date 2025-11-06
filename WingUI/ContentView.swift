@@ -28,7 +28,7 @@ struct ContentView: View {
                     Text("Uploads")
                 }
             
-            Text("Credentials")
+            CredentialsListView()
                 .tabItem {
                     Image("ic_credentialTab")
                     Text("Credentials")
