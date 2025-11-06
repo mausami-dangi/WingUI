@@ -13,6 +13,7 @@ struct AppColor {
     static let appBlack = Color(hex: "#2D3649")
     static let appGrey = Color(hex: "#90A1B5")
     static let bgGrey = Color(hex: "#F7F8FA")
+    static let lightGrey = Color(hex: "#E1E5EE")
 }
 
 
