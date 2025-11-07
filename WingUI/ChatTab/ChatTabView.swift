@@ -44,7 +44,7 @@ struct ChatTabView: View {
     var body: some View {
         List {
             Section(header: Text("My Groups")
-                .font(.custom("Montserrat-SemiBold", size: 14.0))
+                .font(AppFont.size14.montserratSemiBold)
                 .foregroundColor(AppColor.appGrey)
             ) {
                 ForEach(groupItems) { item in
@@ -56,7 +56,7 @@ struct ChatTabView: View {
             }
             
             Section(header: Text("My Assistants")
-                .font(.custom("Montserrat-SemiBold", size: 14.0))
+                .font(AppFont.size14.montserratSemiBold)
                 .foregroundColor(AppColor.appGrey)
             ) {
                 ForEach(assistantItems) { item in
@@ -68,7 +68,7 @@ struct ChatTabView: View {
             }
             
             Section(header: Text("My Users")
-                .font(.custom("Montserrat-SemiBold", size: 14.0))
+                .font(AppFont.size14.montserratSemiBold)
                 .foregroundColor(AppColor.appGrey)
             ) {
                 ForEach(userItems) { item in

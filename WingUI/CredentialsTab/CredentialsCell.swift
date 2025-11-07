@@ -14,7 +14,7 @@ struct CredentialsCell: View {
         
             HStack {
                 Text("https://blog.groovestreet.com")
-                    .font(.custom("Montserrat-SemiBold", size: 14.0))
+                    .font(AppFont.size14.montserratSemiBold)
                     .foregroundColor(AppColor.appBlack)
                 
                 Spacer()
@@ -26,11 +26,12 @@ struct CredentialsCell: View {
             
             HStack {
                 Text("Username:")
-                    .font(.custom("Montserrat-Regular", size: 14.0))
+                    .font(AppFont.size14.montserratRegular)
                     .foregroundColor(AppColor.appGrey)
                 
                 Text("exampleUserName")
-                    .font(.custom("Montserrat-Regular", size: 14.0))
+                    
+                    .font(AppFont.size14.montserratRegular)
                     .foregroundColor(AppColor.appBlack)
                 
                 Spacer()
@@ -42,11 +43,11 @@ struct CredentialsCell: View {
             
             HStack {
                 Text("Password:")
-                    .font(.custom("Montserrat-Regular", size: 14.0))
+                    .font(AppFont.size14.montserratRegular)
                     .foregroundColor(AppColor.appGrey)
                 
                 Text("abcd@123")
-                    .font(.custom("Montserrat-Regular", size: 14.0))
+                    .font(AppFont.size14.montserratRegular)
                     .foregroundColor(AppColor.appBlack)
                  
                 Spacer()
@@ -62,7 +63,7 @@ struct CredentialsCell: View {
             
             HStack {
                 Text("Aug 24th, 2024  •  10:48 pm")
-                    .font(.custom("Montserrat-Regular", size: 12.0))
+                    .font(AppFont.size12.montserratRegular)
                 
                 Spacer()
                 
@@ -71,7 +72,7 @@ struct CredentialsCell: View {
                 }) {
                     HStack {
                         Text("Private")
-                            .font(.custom("Montserrat-Regular", size: 14.0))
+                            .font(AppFont.size14.montserratRegular)
                             .foregroundColor(AppColor.appBlack)
                         Image("ic_down")
                     }

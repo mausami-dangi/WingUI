@@ -20,10 +20,10 @@ struct ChatCell: View {
                 VStack (alignment: .leading){
                     Text(chatItems.name)
                         .foregroundColor(AppColor.appBlack)
-                        .font(.custom("Montserrat-Medium", size: 15.0))
+                        .font(AppFont.size15.montserratMedium)
                     Text(chatItems.lastMessage)
                         .foregroundColor(AppColor.appGrey)
-                        .font(.custom("Montserrat-Regular", size: 13.0))
+                        .font(AppFont.size13.montserratRegular)
                     
                 }
                 
@@ -33,7 +33,7 @@ struct ChatCell: View {
                     VStack (spacing: 1) {
                         Text("6h ago")
                             .foregroundColor(AppColor.appGrey)
-                            .font(.custom("Montserrat-Regular", size: 13.0))
+                            .font(AppFont.size13.montserratRegular)
                         Text("1")
                             .font(.caption)
                             .padding(6)

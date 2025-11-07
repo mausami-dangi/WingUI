@@ -19,7 +19,7 @@ struct CredentialsListView: View {
                 Image("ic_search")
                 
                 TextField("Search", text: $searchText)
-                    .font(.custom("Montserrat-Regular", size: 14))
+                    .font(AppFont.size14.montserratRegular)
                     .foregroundColor(AppColor.appGrey)
             }.frame(height: 40)
                 .background(Color.white)
@@ -30,7 +30,7 @@ struct CredentialsListView: View {
             
             
             Text("30 Credentials Saved")
-                .font(.custom("Montserrat-SemiBold", size: 14.0))
+                .font(AppFont.size14.montserratSemiBold)
                 .foregroundColor(AppColor.appGrey)
                 
             
@@ -46,11 +46,11 @@ struct CredentialsListView: View {
             
             HStack {
                 Text("Wing's Credentials product uses bank level security to keep your credentials secure, ")
-                    .font(.custom("Montserrat-Regular", size: 12))
+                    .font(AppFont.size12.montserratRegular)
                     .foregroundColor(AppColor.appGrey)
                 +
                 Text("tap here to learn more.")
-                    .font(.custom("Montserrat-Medium", size: 12))
+                    .font(AppFont.size12.montserratMedium)
                     .foregroundColor(AppColor.appBlue)
             }.padding(.bottom)
         }.background(AppColor.bgGrey)

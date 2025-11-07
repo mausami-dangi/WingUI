@@ -13,20 +13,20 @@ struct TaskListView: View {
         
         VStack(alignment: .leading){
             Text("Welcome Back!")
-                .font(.custom("Montserrat-Medium", size: 14.0))
+                .font(AppFont.size14.montserratMedium)
                 .foregroundColor(AppColor.appGrey)
             
             (
                 Text("You’ve got ")
-                    .font(.custom("Montserrat-SemiBold", size: 20.0))
+                    .font(AppFont.size20.montserratSemiBold)
                     .foregroundColor(AppColor.appBlack)
                 +
                 Text("6 Tasks ")
-                    .font(.custom("Montserrat-SemiBold", size: 20.0))
+                    .font(AppFont.size20.montserratSemiBold)
                     .foregroundColor(AppColor.appBlue)
                 +
                 Text("To-do")
-                    .font(.custom("Montserrat-SemiBold", size: 20.0))
+                    .font(AppFont.size20.montserratSemiBold)
                     .foregroundColor(AppColor.appBlack)
             )
             
